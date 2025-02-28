@@ -1,0 +1,51 @@
+.hot {
+  background-image: url("./src/assets/hot.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Poiret One", sans-serif;
+}
+
+.hot h2 {
+  font-size: 80px;
+  margin-top: 20px;
+  color: rgba(180, 8, 8, 0.788);
+  font-family: "Spirax", sans-serif;
+}
+
+.hot ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hot a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.hot-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.mocha ~ .price {
+  margin-left: 407px;
+}
+.formaggio ~ .price {
+  margin-left: 389px;
+}
+.espresso ~ .price {
+  margin-left: 437px;
+}
+.chai ~ .price {
+  margin-left: 375px;
+}

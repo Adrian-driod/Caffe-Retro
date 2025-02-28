@@ -1,0 +1,41 @@
+.cozy {
+  background-image: url("./src/assets/cosy.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Poiret One", sans-serif;
+}
+
+.cozy h2 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-family: "Spirax", sans-serif;
+  color: rgba(180, 8, 8, 0.788);
+}
+
+.cozy-image {
+  width: 100%;
+  height: auto;
+}
+
+.cozy ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+span.hours + span {
+  margin-left: 381px; /* adjust the value to your liking */
+}
+
+span.phone + span {
+  margin-left: 300px; /* adjust the value to your liking */
+}
+span.address + span {
+  margin-left: 380px; /* adjust the value to your liking */
+}

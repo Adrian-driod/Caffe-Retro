@@ -1,0 +1,52 @@
+.juicy {
+  background-image: url("./src/assets/juicy.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Poiret One", sans-serif;
+}
+
+.juicy h2 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-family: "Spirax", sans-serif;
+  color: rgba(180, 8, 8, 0.788);
+}
+
+.juicy ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.juicy li {
+  margin-bottom: 10px;
+}
+
+.juicy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.juicy-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.apricot ~ .price {
+  margin-left: 400px;
+}
+
+.rasberry ~ .price {
+  margin-left: 417px;
+}
+
+.orange ~ .price {
+  margin-left: 407px;
+}

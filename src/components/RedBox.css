@@ -1,0 +1,17 @@
+.red-box {
+  background-color: rgba(125, 9, 9, 0.801);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 600px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.description1 {
+  margin-left: -300px;
+}
+.description2 {
+  margin-left: 300px;
+}
